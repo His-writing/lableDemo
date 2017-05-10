@@ -15,6 +15,7 @@
 		F02DA08D1E97165A005D691F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F02DA08B1E97165A005D691F /* LaunchScreen.storyboard */; };
 		F02DA0981E97165A005D691F /* lableDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = F02DA0971E97165A005D691F /* lableDemoTests.m */; };
 		F02DA0A31E97165A005D691F /* lableDemoUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = F02DA0A21E97165A005D691F /* lableDemoUITests.m */; };
+		F02DA0B21E97167B005D691F /* ExpandLabel.m in Sources */ = {isa = PBXBuildFile; fileRef = F02DA0B11E97167B005D691F /* ExpandLabel.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +52,8 @@
 		F02DA09E1E97165A005D691F /* lableDemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = lableDemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		F02DA0A21E97165A005D691F /* lableDemoUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = lableDemoUITests.m; sourceTree = "<group>"; };
 		F02DA0A41E97165A005D691F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F02DA0B01E97167B005D691F /* ExpandLabel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ExpandLabel.h; sourceTree = "<group>"; };
+		F02DA0B11E97167B005D691F /* ExpandLabel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ExpandLabel.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,6 +104,8 @@
 		F02DA07C1E97165A005D691F /* lableDemo */ = {
 			isa = PBXGroup;
 			children = (
+				F02DA0B01E97167B005D691F /* ExpandLabel.h */,
+				F02DA0B11E97167B005D691F /* ExpandLabel.m */,
 				F02DA0801E97165A005D691F /* AppDelegate.h */,
 				F02DA0811E97165A005D691F /* AppDelegate.m */,
 				F02DA0831E97165A005D691F /* ViewController.h */,
@@ -276,6 +281,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F02DA0B21E97167B005D691F /* ExpandLabel.m in Sources */,
 				F02DA0851E97165A005D691F /* ViewController.m in Sources */,
 				F02DA0821E97165A005D691F /* AppDelegate.m in Sources */,
 				F02DA07F1E97165A005D691F /* main.m in Sources */,
